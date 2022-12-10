@@ -17,7 +17,7 @@ rucksacks.each do |rucksack|
   end
 end
 
-puts "Solution day 1 part 1 = #{sol_part1}"
+puts "Solution part 1: #{sol_part1}"
 
 i = 0
 sol_part2 = 0
@@ -29,4 +29,4 @@ while i < rucksacks.length
   i += 3
 end
 
-puts "Solution day 1 part 2 = #{sol_part2}"
+puts "Solution part 2: #{sol_part2}"

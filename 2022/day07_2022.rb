@@ -24,10 +24,9 @@ lines.each do |line|
   end
 end
 
-sol1 = size.values.keep_if { |e| e <= 100_000 }.sum
-p sol1
+sol_part1 = size.values.keep_if { |e| e <= 100_000 }.sum
+puts "Solution part 1: #{sol_part1}"
 
 to_free = 30_000_000 - (70_000_000 - size['/'])
-sol2 = size.values.keep_if { |e| e >= to_free }.min
-
-p sol2
+sol_part2 = size.values.keep_if { |e| e >= to_free }.min
+puts "Solution part 2: #{sol_part2}"

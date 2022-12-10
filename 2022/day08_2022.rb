@@ -40,5 +40,5 @@ trees.length.times do |i|
   end
 end
 
-puts "Solution day 8 part 1: #{visible_count}"
-puts "Solution day 8 part 2: #{highest_scenic_score}"
+puts "Solution part 1: #{visible_count}"
+puts "Solution part 2: #{highest_scenic_score}"

@@ -11,5 +11,5 @@ pairs.each do |pair|
   sol_part2 += 1 if pair.first.any? { |x| pair.last.include? x } || pair.last.any? { |x| pair.first.include? x }
 end
 
-puts "Solution day 1 part 1 = #{sol_part1}"
-puts "Solution day 1 part 2 = #{sol_part2}"
+puts "Solution part 1: #{sol_part1}"
+puts "Solution part 2: #{sol_part2}"

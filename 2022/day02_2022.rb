@@ -56,5 +56,5 @@ lines.split("\n").each do |round|
   score_p2 += part_two[round.split[0].to_sym][round.split[1].to_sym]
 end
 
-puts "Solution day 2 part 1 = #{score_p1}"
-puts "Solution day 2 part 1 = #{score_p2}"
+puts "Solution part 1: #{score_p1}"
+puts "Solution part 2: #{score_p2}"
